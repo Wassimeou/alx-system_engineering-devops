@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# print file names without the number prefix
+# displays the content of the current working directory.
 
-for file_name in *
+for i in *
 do
-	echo "$file_name" | cut -d "-" -f2-
+    echo "$i" | cut -d'-' -f2
 done
